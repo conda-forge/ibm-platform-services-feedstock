@@ -1,5 +1,5 @@
 {% set name = "ibm-platform-services" %}
-{% set version = "0.29.0" %}
+{% set version = "0.30.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ibm-platform-services-{{ version }}.tar.gz
-  sha256: d2eefaee2c2614cdb2b969765a2337262dfe492320f84647707dccb52563b9c1
+  sha256: 5ce2b7167cd5df896759125b3d3a2ca88fdc6b5dbc63dc2fe2eb9bc3ea8d5c5e
 
 build:
   noarch: python
