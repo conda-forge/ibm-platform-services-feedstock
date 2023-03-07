@@ -1,11 +1,11 @@
-About ibm-platform-services
-===========================
+About ibm-platform-services-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ibm-platform-services-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/IBM/platform-services-python-sdk
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ibm-platform-services-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python client library for IBM Cloud Platform Services
 
