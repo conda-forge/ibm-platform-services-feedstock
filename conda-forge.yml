@@ -6,4 +6,5 @@ conda_build:
   pkg_format: '2'
 bot:
   automerge: true
+  check_solvable: true
   inspection: update-grayskull
