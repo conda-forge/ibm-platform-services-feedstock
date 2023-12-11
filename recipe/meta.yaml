@@ -1,5 +1,5 @@
 {% set name = "ibm-platform-services" %}
-{% set version = "0.48.0" %}
+{% set version = "0.48.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ibm-platform-services-{{ version }}.tar.gz
-  sha256: ac4a09ff587191c8d615fb5629fca06ddca056f88e3403c8e08e51141c492e26
+  sha256: 712188770868e5a8935a58341481274b04b868484446f87a13d859335b67ea0a
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - ibm-cloud-sdk-core <4.0.0,>=3.17.0
+    - ibm-cloud-sdk-core <4.0.0,>=3.18.1
 
 test:
   imports:
