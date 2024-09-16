@@ -1,6 +1,7 @@
 About ibm-platform-services-feedstock
 =====================================
 
+test
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ibm-platform-services-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/IBM/platform-services-python-sdk
