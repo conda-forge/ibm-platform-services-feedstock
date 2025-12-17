@@ -15,7 +15,7 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18177&branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=None&branchName=main">
         <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ibm-platform-services-feedstock?branchName=main">
       </a>
     </td>
@@ -144,7 +144,4 @@ Feedstock Maintainers
 =====================
 
 * [@wshanks](https://github.com/wshanks/)
-
-
-<!-- dummy commit to enable rerendering -->
 
