@@ -1,13 +1,13 @@
 {% set name = "ibm-platform-services" %}
-{% set version = "0.77.0" %}
+{% set version = "0.77.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: fc7848310160d55ca55b4386a095db70f8badcc88890f3c1bbba0e41d4f000b2
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: dedadfef98b9b8f8a40e1edba0ef3a7137ef46894e61699f775dad7c2f12fbd1
 
 build:
   noarch: python
