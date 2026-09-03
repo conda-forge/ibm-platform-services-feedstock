@@ -8,3 +8,4 @@ bot:
   automerge: true
   check_solvable: true
   inspection: update-grayskull
+conda_build_tool: rattler-build
