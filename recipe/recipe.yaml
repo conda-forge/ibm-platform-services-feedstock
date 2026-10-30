@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ibm-platform-services
-  version: "0.77.1"
+  version: 0.77.2
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: dedadfef98b9b8f8a40e1edba0ef3a7137ef46894e61699f775dad7c2f12fbd1
+  sha256: 93206980929090824c7779bd31dfc9de198cd538ad37b7e609cecbe9db709ae8
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
@@ -24,8 +24,7 @@ requirements:
     - setuptools >=67.7.2
   run:
     - python >=${{ python_min }}
-    - ibm-cloud-sdk-core >=3.24.4,<4.0.0
-
+    - ibm-cloud-sdk-core >=3.28.1,<4.0.0
 tests:
   - python:
       imports:
@@ -33,7 +32,7 @@ tests:
       pip_check: true
       python_version:
         - ${{ python_min }}.*
-        - "*"
+        - '*'
 
 about:
   summary: Python client library for IBM Cloud Platform Services
